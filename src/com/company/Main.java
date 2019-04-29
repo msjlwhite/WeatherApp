@@ -8,18 +8,14 @@ import java.util.Scanner;
 
 public class Main {
 
-    // variable declaration
-//    Scanner scanner = new Scanner(System.in);
-
-
     public static void main(String[] args) throws IOException {
 	// write your code here
 
         Scanner scanner = new Scanner(System.in);                   //
         int over;
         int under;
-        String town; // = null;
-        String land;// = null;
+        String town;
+        String land;
         Date day = new Date();
 
 
@@ -46,15 +42,15 @@ public class Main {
 
         Weather outlook = new Weather(over,under,town,land);
 
-        FileWriter writer = new FileWriter(  town + ", " + land + ".txt");   // creates a FileWriter Object to create a new file to write to
-        BufferedWriter buffer = new BufferedWriter(writer);         // writes text to a file
-
-
         // Prints out user entered information
         System.out.println(outlook);
         System.out.println("This is Sunny Skyz and thank you for using the Clever Weather Reporter! You have a very Sunny Day!");
 
+
         // Print out user input to a file
+        FileWriter writer = new FileWriter(  town + ", " + land + ".txt");   // creates a FileWriter Object to create a new file to write to
+        BufferedWriter buffer = new BufferedWriter(writer);                          // writes text to a file
+
         buffer.write(String.valueOf(day));
         buffer.newLine();
 
@@ -67,10 +63,8 @@ public class Main {
         buffer.write(String.valueOf(outlook));
 
         buffer.newLine();
-
         buffer.flush();
         buffer.close();
-
 
     }// end of main
 
