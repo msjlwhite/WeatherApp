@@ -1,0 +1,8 @@
+Mon Apr 29 15:21:50 CDT 2019
+Welcome to the Clever Weather Reporter!
+My name is Sunny Skyz, weather report and here are the Current Weather Conditions in your area:
+
+Current Weather Conditions: 
+Location: Winnie, Pooh
+Today's High is 75.
+Today's Low is 75.
