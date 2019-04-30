@@ -59,7 +59,8 @@ public class WeatherReport {
         buffer.write("Welcome to the Clever Weather Reporter!");
         buffer.newLine();
 
-        buffer.write("My name is Sunny Skyz, weather report and here are the Current Weather Conditions in your area:");
+        buffer.write("Hello, my name is Sunny Skyz. I have gathered all of the location and weather information that you entered" +
+                "\n and compiled it into a weather report for you: ");
         buffer.newLine();
 
         buffer.write(String.valueOf(outlook));

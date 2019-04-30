@@ -1,0 +1,8 @@
+Mon Apr 29 19:09:39 CDT 2019
+Welcome to the Clever Weather Reporter!
+My name is Sunny Skyz, weather report and here are the Current Weather Conditions in your area:
+
+Current Weather Conditions: 
+Location: kansas city, missouri
+Today's High is 61.
+Today's Low is -1.

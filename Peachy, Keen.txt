@@ -1,0 +1,8 @@
+Mon Apr 29 16:10:29 CDT 2019
+Welcome to the Clever Weather Reporter!
+My name is Sunny Skyz, weather report and here are the Current Weather Conditions in your area:
+
+Current Weather Conditions: 
+Location: Peachy, Keen
+Today's High is 60.
+Today's Low is 59.
